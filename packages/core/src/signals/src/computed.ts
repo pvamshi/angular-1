@@ -53,28 +53,28 @@ export function computed<T>(computation: () => T, options?: CreateComputedOption
  * A dedicated symbol used before a computed value has been calculated for the first time.
  * Explicitly typed as `any` so we can use it as signal's value.
  */
-const UNSET: any = /* @__PURE__ */ Symbol('UNSET');
+export const UNSET: any = /* @__PURE__ */ Symbol('UNSET');
 
 /**
  * A dedicated symbol used in place of a computed signal value to indicate that a given computation
  * is in progress. Used to detect cycles in computation chains.
  * Explicitly typed as `any` so we can use it as signal's value.
  */
-const COMPUTING: any = /* @__PURE__ */ Symbol('COMPUTING');
+export const COMPUTING: any = /* @__PURE__ */ Symbol('COMPUTING');
 
 /**
  * A dedicated symbol used in place of a computed signal value to indicate that a given computation
  * failed. The thrown error is cached until the computation gets dirty again.
  * Explicitly typed as `any` so we can use it as signal's value.
  */
-const ERRORED: any = /* @__PURE__ */ Symbol('ERRORED');
+export const ERRORED: any = /* @__PURE__ */ Symbol('ERRORED');
 
 /**
  * A computation, which derives a value from a declarative reactive expression.
  *
  * `Computed`s are both producers and consumers of reactivity.
  */
-interface ComputedNode<T> extends ReactiveNode {
+export interface ComputedNode<T> extends ReactiveNode {
   /**
    * Current value of the computation, or one of the sentinel values above (`UNSET`, `COMPUTING`,
    * `ERROR`).
@@ -98,7 +98,7 @@ interface ComputedNode<T> extends ReactiveNode {
 // Note: Using an IIFE here to ensure that the spread assignment is not considered
 // a side-effect, ending up preserving `COMPUTED_NODE` and `REACTIVE_NODE`.
 // TODO: remove when https://github.com/evanw/esbuild/issues/3392 is resolved.
-const COMPUTED_NODE = /* @__PURE__ */ (() => {
+export const COMPUTED_NODE = /* @__PURE__ */ (() => {
   return {
     ...REACTIVE_NODE,
     value: UNSET,
