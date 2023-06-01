@@ -17,6 +17,7 @@ export {
   untracked,
   ValueEqualityFn,
   WritableSignal,
+  ɵɵtoWritableSignal,
 } from './signals';
 export {
   CreateEffectOptions,
