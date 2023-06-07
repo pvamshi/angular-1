@@ -6,7 +6,6 @@
  * found in the LICENSE file at https://angular.io/license
  */
 
-
 import {COMPUTED_NODE, ComputedNode, Signal, UNSET} from '../../signals';
 
 export const BRAND_WRITE_TYPE = Symbol();
@@ -18,7 +17,7 @@ export const BRAND_WRITE_TYPE = Symbol();
  */
 export type InputSignal<ReadT, WriteT> = Signal<ReadT>&{
   [BRAND_WRITE_TYPE]: WriteT;
-}
+};
 
 export interface InputSignalNode<ReadT, WriteT> extends ComputedNode<ReadT> {
   /**
