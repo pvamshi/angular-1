@@ -12,11 +12,11 @@ import {EMPTY_ARRAY} from '../../util/empty';
 import {bindingUpdated} from '../bindings';
 import {DirectiveDef} from '../interfaces/definition';
 import {PropertyAliasValue, TNode} from '../interfaces/node';
-import {InternalInputSignal} from '../interfaces/reactivity';
 import {RComment, RElement} from '../interfaces/renderer_dom';
 import {SanitizerFn} from '../interfaces/sanitization';
 import {isComponentHost} from '../interfaces/type_checks';
 import {HEADER_OFFSET, RENDERER} from '../interfaces/view';
+import {InputSignalNode} from '../reactivity/input_signal';
 import {getCurrentTNode, getLView, getSelectedTNode, getTView, nextBindingIndex} from '../state';
 import {getNativeByTNode} from '../util/view_utils';
 
@@ -51,7 +51,14 @@ export function ɵɵpropertyCreate<T>(
       (zoneTargets ??= []).push(index, privateName);
     } else {
       ngDevMode && assertIndexInRange(lView, index);
-      (lView[index][privateName][SIGNAL] as InternalInputSignal).bindToComputation(expr);
+      const inputSignalNode =
+          lView[index][privateName][SIGNAL] as InputSignalNode<unknown, unknown>;
+
+      // TODO: Improve this by not allocating an object literal here. This exists just for testing.
+      inputSignalNode.bind(inputSignalNode, {computation: expr});
+
+      // TODO: figure out where to set `isInitialized`.
+      inputSignalNode.isInitialized = true;
     }
   }
 
