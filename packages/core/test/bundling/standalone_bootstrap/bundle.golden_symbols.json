@@ -759,6 +759,9 @@
     "name": "getTNodeFromLView"
   },
   {
+    "name": "getVirtualInstructionIndex"
+  },
+  {
     "name": "hostReportError"
   },
   {

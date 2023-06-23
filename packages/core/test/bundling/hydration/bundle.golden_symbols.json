@@ -909,6 +909,9 @@
     "name": "getTNodeFromLView"
   },
   {
+    "name": "getVirtualInstructionIndex"
+  },
+  {
     "name": "hasInSkipHydrationBlockFlag"
   },
   {
