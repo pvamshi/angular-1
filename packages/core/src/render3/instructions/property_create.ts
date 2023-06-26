@@ -102,7 +102,6 @@ export function ɵɵpropertyCreate<T>(
     }
   }
 
-  // TODO virtual instruction
   return ɵɵpropertyCreate;
 }
 
