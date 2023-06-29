@@ -17,7 +17,6 @@ export {
   untracked,
   ValueEqualityFn,
   WritableSignal,
-  ɵɵtoWritableSignal,
 } from './signals';
 export {
   CreateEffectOptions,
@@ -28,6 +27,6 @@ export {
   ZoneAwareQueueingScheduler as ɵZoneAwareQueueingScheduler,
   FlushableEffectRunner as ɵFlushableEffectRunner,
 } from './render3/reactivity/effect';
-export {InputSignal} from './render3/reactivity/input_signal';
+export {InputSignal, ɵɵGetInputSignalWriteType} from './render3/reactivity/input_signal';
 export {input} from './render3/reactivity/input';
 // clang-format on
