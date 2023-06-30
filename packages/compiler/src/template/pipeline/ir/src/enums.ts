@@ -299,6 +299,7 @@ export enum ExpressionKind {
   /**
    * A reference to a temporary variable.
    */
+
   ReadTemporaryExpr,
 
   /**
@@ -310,6 +311,12 @@ export enum ExpressionKind {
    * An expression that will cause a literal slot index to be emitted.
    */
   SlotLiteralExpr,
+
+  /**
+   * An interpolation template string expression. Such template string expression is
+   * commonly expected to be part of the `PropertyCreate` operation expression.
+   */
+  InterpolationTemplateExpr,
 }
 
 /**
