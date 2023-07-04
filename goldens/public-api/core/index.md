@@ -1598,7 +1598,7 @@ export type ViewChild = Query;
 export const ViewChild: ViewChildDecorator;
 
 // @public (undocumented)
-export function viewChild<T>(selector: ProviderToken<unknown> | Function | string, opts?: {
+export function viewChild<T>(selector: ProviderToken<T> | string, opts?: {
     read?: any;
     static?: boolean;
 }): Signal<T | undefined>;
@@ -1623,7 +1623,7 @@ export type ViewChildren = Query;
 export const ViewChildren: ViewChildrenDecorator;
 
 // @public (undocumented)
-export function viewChildren<T>(selector: ProviderToken<unknown> | Function | string, opts?: {
+export function viewChildren<T>(selector: ProviderToken<T> | string, opts?: {
     read?: any;
     emitDistinctChangesOnly?: boolean;
 }): Signal<T[]>;
