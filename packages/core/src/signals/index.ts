@@ -9,7 +9,7 @@
 export {defaultEquals, isSignal, Signal, SIGNAL, ValueEqualityFn} from './src/api';
 export {computed, COMPUTED_NODE, ComputedNode, CreateComputedOptions, ERRORED, UNSET} from './src/computed';
 export {setThrowInvalidWriteToSignalError} from './src/errors';
-export {ReactiveNode, setActiveConsumer} from './src/graph';
+export {producerAccessed, producerUpdateValueVersion, setActiveConsumer} from './src/graph';
 export {CreateSignalOptions, setPostSignalSetFn, signal, WritableSignal} from './src/signal';
 export {untracked} from './src/untracked';
 export {Watch, watch, WatchCleanupFn, WatchCleanupRegisterFn} from './src/watch';
