@@ -28,5 +28,6 @@ export {
   ZoneAwareQueueingScheduler as ɵZoneAwareQueueingScheduler,
   FlushableEffectRunner as ɵFlushableEffectRunner,
 } from './render3/reactivity/effect';
-export {input, InputSignal, ModelSignal} from './render3/reactivity/input_signal';
+export {InputSignal} from './render3/reactivity/input_signal';
+export {input} from './render3/reactivity/input';
 // clang-format on
