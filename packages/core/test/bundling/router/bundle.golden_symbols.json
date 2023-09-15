@@ -72,6 +72,9 @@
     "name": "COMPONENT_REGEX"
   },
   {
+    "name": "COMPUTING"
+  },
+  {
     "name": "CONTAINER_HEADER_OFFSET"
   },
   {
@@ -196,6 +199,9 @@
   },
   {
     "name": "ENVIRONMENT_INITIALIZER"
+  },
+  {
+    "name": "ERRORED"
   },
   {
     "name": "EVENT_MANAGER_PLUGINS"
@@ -531,6 +537,9 @@
     "name": "REACTIVE_LVIEW_CONSUMER_NODE"
   },
   {
+    "name": "REACTIVE_NODE"
+  },
+  {
     "name": "REMOVE_STYLES_ON_COMPONENT_DESTROY"
   },
   {
@@ -730,6 +739,9 @@
   },
   {
     "name": "TreeNode"
+  },
+  {
+    "name": "UNSET"
   },
   {
     "name": "USE_VALUE"
@@ -1788,6 +1800,9 @@
     "name": "provideZoneChangeDetection"
   },
   {
+    "name": "queryRefreshInternal"
+  },
+  {
     "name": "recognize2"
   },
   {
@@ -2089,9 +2104,6 @@
   },
   {
     "name": "ɵɵlistener"
-  },
-  {
-    "name": "ɵɵqueryRefresh"
   },
   {
     "name": "ɵɵsanitizeResourceUrl"
