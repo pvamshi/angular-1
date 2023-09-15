@@ -1046,9 +1046,6 @@ export enum MissingTranslationStrategy {
     Warning = 1
 }
 
-// @public
-export type ModelSignal<ReadT, WriteT> = InputSignal<ReadT, WriteT> & Pick<WritableSignal<WriteT>, 'set' | 'update' | 'mutate'>;
-
 // @public @deprecated
 export class ModuleWithComponentFactories<T> {
     constructor(ngModuleFactory: NgModuleFactory<T>, componentFactories: ComponentFactory<any>[]);
