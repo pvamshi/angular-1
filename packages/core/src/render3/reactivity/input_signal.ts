@@ -9,7 +9,7 @@
 import {COMPUTED_NODE, ComputedNode, Signal, UNSET} from '../../signals';
 import {setPureFunctionsEnabled} from '../pure_function';
 
-export const BRAND_WRITE_TYPE = Symbol();
+export const BRAND_WRITE_TYPE = /* @__PURE__ */ Symbol();
 
 /**
  * A `Signal` representing a component or directive input.
@@ -47,6 +47,7 @@ export interface InputSignalNode<ReadT, WriteT> extends ComputedNode<ReadT> {
   bind(node: this, value: {value?: WriteT, computation?: () => WriteT}): void;
 
   /** Transform function that is run whenever the node value is retrieved. */
+  // TODO: do we need to memoize
   transform: (value: WriteT) => ReadT;
 }
 
@@ -90,9 +91,11 @@ export const INPUT_SIGNAL_NODE: InputSignalNode<unknown, unknown> = /* @__PURE__
 
     bind: function<ReadT, WriteT>(
         node: InputSignalNode<ReadT, WriteT>, value: {value?: WriteT, computation?: () => WriteT}) {
+      // TODO(signals): perf]
       node._boundComputation = value.computation;
       node._boundValue = value.value;
 
+      // TODO: Do we need to switch between bound values/computation.
       node.dirty = true;
       node.value = UNSET;
     },
