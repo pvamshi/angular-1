@@ -54,9 +54,6 @@
     "name": "COMPONENT_REGEX"
   },
   {
-    "name": "COMPUTING"
-  },
-  {
     "name": "CONTAINERS"
   },
   {
@@ -139,9 +136,6 @@
   },
   {
     "name": "ENVIRONMENT_INITIALIZER"
-  },
-  {
-    "name": "ERRORED"
   },
   {
     "name": "EVENT_MANAGER_PLUGINS"
@@ -384,9 +378,6 @@
     "name": "REACTIVE_LVIEW_CONSUMER_NODE"
   },
   {
-    "name": "REACTIVE_NODE"
-  },
-  {
     "name": "REFERENCE_NODE_BODY"
   },
   {
@@ -468,9 +459,6 @@
     "name": "SwitchMapSubscriber"
   },
   {
-    "name": "TEMPLATE_ID"
-  },
-  {
     "name": "TESTABILITY"
   },
   {
@@ -499,9 +487,6 @@
   },
   {
     "name": "TransferState"
-  },
-  {
-    "name": "UNSET"
   },
   {
     "name": "USE_VALUE"
@@ -561,9 +546,6 @@
     "name": "_platformInjector"
   },
   {
-    "name": "_populateDehydratedViewsInContainer"
-  },
-  {
     "name": "_processI18nInsertBefore"
   },
   {
@@ -580,9 +562,6 @@
   },
   {
     "name": "addPropertyAlias"
-  },
-  {
-    "name": "addToViewTree"
   },
   {
     "name": "allocExpando"
@@ -687,9 +666,6 @@
     "name": "convertToBitFlags"
   },
   {
-    "name": "createAnchorNode"
-  },
-  {
     "name": "createElementNode"
   },
   {
@@ -729,13 +705,7 @@
     "name": "defaultErrorFactory"
   },
   {
-    "name": "destroyLView"
-  },
-  {
     "name": "detachMovedView"
-  },
-  {
-    "name": "detachView"
   },
   {
     "name": "detectChangesInChildComponents"
@@ -762,6 +732,9 @@
     "name": "empty3"
   },
   {
+    "name": "enableHydrationRuntimeSupport"
+  },
+  {
     "name": "enterDI"
   },
   {
@@ -784,9 +757,6 @@
   },
   {
     "name": "extractDirectiveDef"
-  },
-  {
-    "name": "findMatchingDehydratedViewImpl"
   },
   {
     "name": "first"
@@ -945,9 +915,6 @@
     "name": "hasInSkipHydrationBlockFlag"
   },
   {
-    "name": "hasParentInjector"
-  },
-  {
     "name": "hasSkipHydrationAttrOnRElement"
   },
   {
@@ -1099,9 +1066,6 @@
   },
   {
     "name": "locateNextRNode"
-  },
-  {
-    "name": "locateOrCreateAnchorNode"
   },
   {
     "name": "locateOrCreateTextNodeImpl"
@@ -1351,9 +1315,6 @@
   },
   {
     "name": "walkProviderTree"
-  },
-  {
-    "name": "withDomHydration"
   },
   {
     "name": "writeDirectClass"

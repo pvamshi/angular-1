@@ -36,9 +36,6 @@
     "name": "CIRCULAR"
   },
   {
-    "name": "COMPUTING"
-  },
-  {
     "name": "CONTAINER_HEADER_OFFSET"
   },
   {
@@ -85,9 +82,6 @@
   },
   {
     "name": "ENVIRONMENT_INITIALIZER"
-  },
-  {
-    "name": "ERRORED"
   },
   {
     "name": "ElementRef"
@@ -267,9 +261,6 @@
     "name": "REACTIVE_LVIEW_CONSUMER_NODE"
   },
   {
-    "name": "REACTIVE_NODE"
-  },
-  {
     "name": "RefCountOperator"
   },
   {
@@ -336,9 +327,6 @@
     "name": "TYPE"
   },
   {
-    "name": "UNSET"
-  },
-  {
     "name": "USE_VALUE"
   },
   {
@@ -397,9 +385,6 @@
   },
   {
     "name": "addPropertyAlias"
-  },
-  {
-    "name": "addToViewTree"
   },
   {
     "name": "allocExpando"
@@ -522,13 +507,7 @@
     "name": "deepForEachProvider"
   },
   {
-    "name": "destroyLView"
-  },
-  {
     "name": "detachMovedView"
-  },
-  {
-    "name": "detachView"
   },
   {
     "name": "detectChangesInChildComponents"
@@ -699,12 +678,6 @@
     "name": "getVirtualInstructionIndex"
   },
   {
-    "name": "hasInSkipHydrationBlockFlag"
-  },
-  {
-    "name": "hasParentInjector"
-  },
-  {
     "name": "hostReportError"
   },
   {
@@ -850,9 +823,6 @@
   },
   {
     "name": "nativeInsertBefore"
-  },
-  {
-    "name": "nativeParentNode"
   },
   {
     "name": "nextNgElementId"

@@ -1,5 +1,5 @@
 {
-  "unmapped": 2723,
+  "unmapped": 2726,
   "files": {
     "node_modules/": {
       "rxjs/": {
@@ -87,8 +87,8 @@
     },
     "packages/": {
       "core/": {
-        "index.ts": 13866,
-        "size": 223068,
+        "index.ts": 13890,
+        "size": 224319,
         "src/": {
           "application_config.ts": 120,
           "application_init.ts": 598,
@@ -216,7 +216,7 @@
             "size": 265
           },
           "render3/": {
-            "after_render_hooks.ts": 1670,
+            "after_render_hooks.ts": 2043,
             "bindings.ts": 304,
             "collect_native_nodes.ts": 436,
             "component.ts": 462,
@@ -230,8 +230,8 @@
             "definition.ts": 2560,
             "definition_factory.ts": 56,
             "deps_tracker/": {
-              "deps_tracker.ts": 3181,
-              "size": 3181
+              "deps_tracker.ts": 3652,
+              "size": 3652
             },
             "di.ts": 3950,
             "di_setup.ts": 1741,
@@ -282,11 +282,11 @@
               "next_context.ts": 28,
               "projection.ts": 502,
               "property.ts": 173,
-              "property_create.ts": 1005,
+              "property_create.ts": 1021,
               "property_interpolation.ts": 1125,
               "render.ts": 593,
               "shared.ts": 8815,
-              "size": 32747,
+              "size": 32763,
               "storage.ts": 149,
               "style_map_interpolation.ts": 549,
               "style_prop_interpolation.ts": 738,
@@ -331,15 +331,15 @@
             "query.ts": 4678,
             "reactive_lview_consumer.ts": 288,
             "reactivity/": {
-              "effect.ts": 1673,
+              "effect.ts": 1618,
               "input.ts": 221,
-              "input_signal.ts": 388,
+              "input_signal.ts": 398,
               "output.ts": 41,
-              "queries.ts": 708,
+              "queries.ts": 753,
               "size": 3031
             },
-            "scope.ts": 374,
-            "size": 124266,
+            "scope.ts": 440,
+            "size": 125192,
             "state.ts": 3453,
             "styling/": {
               "class_differ.ts": 178,
@@ -378,20 +378,20 @@
             "url_sanitizer.ts": 122
           },
           "signals/": {
-            "size": 4902,
+            "size": 5203,
             "src/": {
               "api.ts": 152,
-              "computed.ts": 588,
+              "computed.ts": 598,
               "errors.ts": 53,
-              "graph.ts": 3014,
-              "signal.ts": 582,
-              "size": 4902,
+              "graph.ts": 3017,
+              "signal.ts": 592,
+              "size": 5203,
               "untracked.ts": 50,
-              "watch.ts": 447,
+              "watch.ts": 725,
               "weak_ref.ts": 16
             }
           },
-          "size": 209185,
+          "size": 210412,
           "testability/": {
             "size": 2833,
             "testability.ts": 2833
@@ -443,8 +443,8 @@
           "size": 17
         }
       },
-      "size": 223068
+      "size": 224319
     },
-    "size": 242755
+    "size": 244006
   }
 }

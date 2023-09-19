@@ -3,16 +3,10 @@
     "name": "CIRCULAR"
   },
   {
-    "name": "COMPUTING"
-  },
-  {
     "name": "EMPTY_ARRAY"
   },
   {
     "name": "ENVIRONMENT_INITIALIZER"
-  },
-  {
-    "name": "ERRORED"
   },
   {
     "name": "EnvironmentInjector"
@@ -69,9 +63,6 @@
     "name": "R3Injector"
   },
   {
-    "name": "REACTIVE_NODE"
-  },
-  {
     "name": "RuntimeError"
   },
   {
@@ -79,12 +70,6 @@
   },
   {
     "name": "THROW_IF_NOT_FOUND"
-  },
-  {
-    "name": "TYPE"
-  },
-  {
-    "name": "UNSET"
   },
   {
     "name": "USE_VALUE"
@@ -97,24 +82,6 @@
   },
   {
     "name": "_injectImplementation"
-  },
-  {
-    "name": "activeConsumer"
-  },
-  {
-    "name": "assertConsumerNode"
-  },
-  {
-    "name": "consumerAfterComputation"
-  },
-  {
-    "name": "consumerBeforeComputation"
-  },
-  {
-    "name": "consumerIsLive"
-  },
-  {
-    "name": "convertToBitFlags"
   },
   {
     "name": "createInjector"
@@ -135,9 +102,6 @@
     "name": "getClosureSafeProperty"
   },
   {
-    "name": "getComponentDef"
-  },
-  {
     "name": "getFactoryDef"
   },
   {
@@ -145,9 +109,6 @@
   },
   {
     "name": "getInjectorDef"
-  },
-  {
-    "name": "getLViewParent"
   },
   {
     "name": "getNullInjector"
@@ -165,9 +126,6 @@
     "name": "injectInjectorOnly"
   },
   {
-    "name": "injectRootLimpMode"
-  },
-  {
     "name": "injectableDefOrInjectorDefFactory"
   },
   {
@@ -175,9 +133,6 @@
   },
   {
     "name": "isEnvironmentProviders"
-  },
-  {
-    "name": "isLContainer"
   },
   {
     "name": "isTypeProvider"
@@ -189,19 +144,10 @@
     "name": "makeRecord"
   },
   {
-    "name": "markViewDirty"
-  },
-  {
     "name": "processInjectorTypesWithProviders"
   },
   {
-    "name": "producerRemoveLiveConsumerAtIndex"
-  },
-  {
     "name": "resolveForwardRef"
-  },
-  {
-    "name": "setActiveConsumer"
   },
   {
     "name": "setCurrentInjector"
@@ -211,9 +157,6 @@
   },
   {
     "name": "stringify"
-  },
-  {
-    "name": "throwProviderNotFoundError"
   },
   {
     "name": "walkProviderTree"

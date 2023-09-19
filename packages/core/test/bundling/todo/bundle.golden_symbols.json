@@ -57,9 +57,6 @@
     "name": "COMPONENT_REGEX"
   },
   {
-    "name": "COMPUTING"
-  },
-  {
     "name": "CONTAINER_HEADER_OFFSET"
   },
   {
@@ -136,9 +133,6 @@
   },
   {
     "name": "ENVIRONMENT_INITIALIZER"
-  },
-  {
-    "name": "ERRORED"
   },
   {
     "name": "EVENT_MANAGER_PLUGINS"
@@ -372,9 +366,6 @@
     "name": "REACTIVE_LVIEW_CONSUMER_NODE"
   },
   {
-    "name": "REACTIVE_NODE"
-  },
-  {
     "name": "REMOVE_STYLES_ON_COMPONENT_DESTROY"
   },
   {
@@ -502,9 +493,6 @@
   },
   {
     "name": "TodoStore"
-  },
-  {
-    "name": "UNSET"
   },
   {
     "name": "USE_VALUE"
@@ -726,9 +714,6 @@
     "name": "convertToBitFlags"
   },
   {
-    "name": "createContainerRef"
-  },
-  {
     "name": "createDirectivesInstances"
   },
   {
@@ -763,9 +748,6 @@
   },
   {
     "name": "createTView"
-  },
-  {
-    "name": "createTemplateRef"
   },
   {
     "name": "currentConsumer"
